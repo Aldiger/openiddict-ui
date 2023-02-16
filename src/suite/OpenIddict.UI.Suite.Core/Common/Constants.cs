@@ -1,4 +1,4 @@
-namespace tomware.OpenIddict.UI.Suite.Core;
+namespace OpenIddict.UI.Suite.Core;
 
 public static class Roles
 {

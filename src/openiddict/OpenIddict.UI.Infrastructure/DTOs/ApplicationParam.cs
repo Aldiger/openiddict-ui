@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using static OpenIddict.Abstractions.OpenIddictConstants;
 
-namespace tomware.OpenIddict.UI.Infrastructure;
+namespace OpenIddict.UI.Infrastructure;
 
 public class ApplicationParam
 {

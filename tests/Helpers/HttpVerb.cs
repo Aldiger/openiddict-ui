@@ -1,4 +1,4 @@
-namespace tomware.OpenIddict.UI.Tests.Helpers;
+namespace OpenIddict.UI.Tests.Helpers;
 
 public enum HttpVerb
 {

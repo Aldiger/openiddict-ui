@@ -2,7 +2,7 @@ using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace tomware.OpenIddict.UI.Tests;
+namespace OpenIddict.UI.Tests;
 
 public static class HttpExtensions
 {

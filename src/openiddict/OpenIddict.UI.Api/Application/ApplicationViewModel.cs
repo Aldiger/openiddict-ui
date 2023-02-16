@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using static OpenIddict.Abstractions.OpenIddictConstants;
 
-namespace tomware.OpenIddict.UI.Api;
+namespace OpenIddict.UI.Api;
 
 public class ApplicationViewModel
 {

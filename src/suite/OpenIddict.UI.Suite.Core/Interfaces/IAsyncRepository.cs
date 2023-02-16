@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace tomware.OpenIddict.UI.Suite.Core;
+namespace OpenIddict.UI.Suite.Core;
 
 public interface IAsyncRepository<TEntity, TKey>
   where TEntity : class

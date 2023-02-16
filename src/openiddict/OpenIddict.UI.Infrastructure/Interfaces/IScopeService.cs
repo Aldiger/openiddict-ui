@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace tomware.OpenIddict.UI.Infrastructure;
+namespace OpenIddict.UI.Infrastructure;
 
 public interface IScopeService
 {

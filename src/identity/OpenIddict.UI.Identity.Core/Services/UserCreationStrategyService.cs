@@ -1,7 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Identity;
 
-namespace tomware.OpenIddict.UI.Identity.Core;
+namespace OpenIddict.UI.Identity.Core;
 
 /// <summary>
 /// <para>Maps the Email property to the IdentityUser.UserName property.</para>

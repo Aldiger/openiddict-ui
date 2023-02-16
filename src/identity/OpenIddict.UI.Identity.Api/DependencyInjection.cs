@@ -4,10 +4,10 @@ using System.Diagnostics.CodeAnalysis;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
-using tomware.OpenIddict.UI.Identity.Core;
-using tomware.OpenIddict.UI.Suite.Api;
+using OpenIddict.UI.Identity.Core;
+using OpenIddict.UI.Suite.Api;
 
-namespace tomware.OpenIddict.UI.Identity.Api;
+namespace OpenIddict.UI.Identity.Api;
 
 [ExcludeFromCodeCoverage]
 public static class OpenIddictUIIdentityApiServicesExtensions

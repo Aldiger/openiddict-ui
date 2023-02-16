@@ -1,4 +1,4 @@
-namespace tomware.OpenIddict.UI.Identity.Api;
+namespace OpenIddict.UI.Identity.Api;
 
 public static class Policies
 {

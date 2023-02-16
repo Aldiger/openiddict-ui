@@ -2,7 +2,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using OpenIddict.EntityFrameworkCore.Models;
 
-namespace tomware.OpenIddict.UI.Infrastructure;
+namespace OpenIddict.UI.Infrastructure;
 
 public class OpenIddictUIStoreOptions
 {

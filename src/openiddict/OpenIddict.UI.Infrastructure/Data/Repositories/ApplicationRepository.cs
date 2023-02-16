@@ -1,6 +1,6 @@
 using OpenIddict.EntityFrameworkCore.Models;
 
-namespace tomware.OpenIddict.UI.Infrastructure;
+namespace OpenIddict.UI.Infrastructure;
 
 public class ApplicationRepository<TContext>
   : EfRepository<OpenIddictEntityFrameworkCoreApplication, string>, IApplicationRepository

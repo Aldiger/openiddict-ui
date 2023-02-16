@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.DependencyInjection;
-using tomware.OpenIddict.UI.Suite.Api;
+using OpenIddict.UI.Suite.Api;
 
-namespace tomware.OpenIddict.UI.Api;
+namespace OpenIddict.UI.Api;
 
 [ExcludeFromCodeCoverage]
 public static class OpenIddictUIServicesExtensions

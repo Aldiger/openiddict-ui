@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using tomware.OpenIddict.UI.Identity.Core;
+using OpenIddict.UI.Identity.Core;
 
-namespace tomware.OpenIddict.UI.Identity.Infrastructure;
+namespace OpenIddict.UI.Identity.Infrastructure;
 
 public class ClaimTypeEntityConfiguration : IEntityTypeConfiguration<ClaimType>
 {

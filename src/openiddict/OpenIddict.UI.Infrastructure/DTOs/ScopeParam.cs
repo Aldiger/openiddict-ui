@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace tomware.OpenIddict.UI.Infrastructure;
+namespace OpenIddict.UI.Infrastructure;
 
 public class ScopeParam
 {

@@ -3,11 +3,11 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Server;
-using tomware.OpenIddict.UI.Identity.Api;
-using tomware.OpenIddict.UI.Tests.Helpers;
+using OpenIddict.UI.Identity.Api;
+using OpenIddict.UI.Tests.Helpers;
 using Xunit;
 
-namespace tomware.OpenIddict.UI.Tests.Integration;
+namespace OpenIddict.UI.Tests.Integration;
 
 public class RoleApiTest : IntegrationContext
 {

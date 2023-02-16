@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 
-namespace tomware.OpenIddict.UI.Identity.Core;
+namespace OpenIddict.UI.Identity.Core;
 
 public interface IAccountService
 {

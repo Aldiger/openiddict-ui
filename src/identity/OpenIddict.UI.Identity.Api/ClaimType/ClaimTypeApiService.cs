@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using tomware.OpenIddict.UI.Identity.Core;
-using tomware.OpenIddict.UI.Suite.Core;
+using OpenIddict.UI.Identity.Core;
+using OpenIddict.UI.Suite.Core;
 
-namespace tomware.OpenIddict.UI.Identity.Api;
+namespace OpenIddict.UI.Identity.Api;
 
 public interface IClaimTypeApiService
 {

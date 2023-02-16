@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
-using tomware.OpenIddict.UI.Suite.Core;
+using OpenIddict.UI.Suite.Core;
 
-namespace tomware.OpenIddict.UI.Api;
+namespace OpenIddict.UI.Api;
 
 public class OpenIddictUIApiOptions
 {

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace tomware.OpenIddict.UI.Suite.Core;
+namespace OpenIddict.UI.Suite.Core;
 
 public class SimpleMapper
 {

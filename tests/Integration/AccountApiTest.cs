@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Server;
 using Server.Models;
-using tomware.OpenIddict.UI.Identity.Api;
-using tomware.OpenIddict.UI.Tests.Helpers;
+using OpenIddict.UI.Identity.Api;
+using OpenIddict.UI.Tests.Helpers;
 using Xunit;
 
-namespace tomware.OpenIddict.UI.Tests.Integration;
+namespace OpenIddict.UI.Tests.Integration;
 
 public class AccountApiTest : IntegrationContext
 {

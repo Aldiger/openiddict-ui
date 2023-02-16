@@ -5,10 +5,10 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using OpenIddict.Core;
 using OpenIddict.EntityFrameworkCore.Models;
-using tomware.OpenIddict.UI.Suite.Core;
+using OpenIddict.UI.Suite.Core;
 using static OpenIddict.Abstractions.OpenIddictConstants;
 
-namespace tomware.OpenIddict.UI.Infrastructure;
+namespace OpenIddict.UI.Infrastructure;
 
 public class ApplicationService : IApplicationService
 {

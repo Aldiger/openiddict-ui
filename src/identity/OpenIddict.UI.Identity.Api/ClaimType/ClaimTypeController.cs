@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace tomware.OpenIddict.UI.Identity.Api;
+namespace OpenIddict.UI.Identity.Api;
 
 [Route("claimtypes")]
 public class ClaimTypeController : IdentityApiController

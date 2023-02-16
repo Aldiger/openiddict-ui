@@ -1,3 +1,3 @@
-namespace tomware.OpenIddict.UI.Identity.Core;
+namespace OpenIddict.UI.Identity.Core;
 
 public class UserParam : UserInfo { }

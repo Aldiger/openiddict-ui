@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace tomware.OpenIddict.UI.Suite.Core;
+namespace OpenIddict.UI.Suite.Core;
 
 public abstract class BaseSpecification<T> : ISpecification<T>
 {

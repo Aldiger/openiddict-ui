@@ -1,8 +1,8 @@
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using tomware.OpenIddict.UI.Suite.Core;
+using OpenIddict.UI.Suite.Core;
 
-namespace tomware.OpenIddict.UI.Infrastructure;
+namespace OpenIddict.UI.Infrastructure;
 
 internal sealed class SpecificationEvaluator<T> where T : class
 {

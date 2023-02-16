@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace tomware.OpenIddict.UI.Api;
+namespace OpenIddict.UI.Api;
 
 [Route("application")]
 public class ApplicationController : OpenIddictApiController

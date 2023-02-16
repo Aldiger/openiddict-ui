@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using tomware.OpenIddict.UI.Api;
+using OpenIddict.UI.Api;
 using Xunit;
 
-namespace tomware.OpenIddict.UI.Tests.Unit;
+namespace OpenIddict.UI.Tests.Unit;
 
 public class ApplicationControllerTest
 {

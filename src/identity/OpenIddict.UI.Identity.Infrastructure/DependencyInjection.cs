@@ -3,10 +3,10 @@ using System.Diagnostics.CodeAnalysis;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using tomware.OpenIddict.UI.Identity.Core;
-using tomware.OpenIddict.UI.Suite.Core;
+using OpenIddict.UI.Identity.Core;
+using OpenIddict.UI.Suite.Core;
 
-namespace tomware.OpenIddict.UI.Identity.Infrastructure;
+namespace OpenIddict.UI.Identity.Infrastructure;
 
 [ExcludeFromCodeCoverage]
 public static class OpenIddictUIIdentityInfrastructureServicesExtensions

@@ -3,11 +3,11 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Server;
-using tomware.OpenIddict.UI.Api;
-using tomware.OpenIddict.UI.Tests.Helpers;
+using OpenIddict.UI.Api;
+using OpenIddict.UI.Tests.Helpers;
 using Xunit;
 
-namespace tomware.OpenIddict.UI.Tests.Integration;
+namespace OpenIddict.UI.Tests.Integration;
 
 public class ScopeApiTest : IntegrationContext
 {

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace tomware.OpenIddict.UI.Identity.Api;
+namespace OpenIddict.UI.Identity.Api;
 
 [Route("roles")]
 public class RoleController : IdentityApiController

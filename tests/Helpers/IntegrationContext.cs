@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Server;
 using Xunit;
 
-namespace tomware.OpenIddict.UI.Tests.Helpers;
+namespace OpenIddict.UI.Tests.Helpers;
 
 public class IntegrationContext : IClassFixture<IntegrationApplicationFactory<Testing>>
 {

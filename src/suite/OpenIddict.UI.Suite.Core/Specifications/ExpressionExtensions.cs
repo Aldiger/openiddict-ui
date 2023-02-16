@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace tomware.OpenIddict.UI.Suite.Core;
+namespace OpenIddict.UI.Suite.Core;
 
 public static class ExpressionExtensions
 {

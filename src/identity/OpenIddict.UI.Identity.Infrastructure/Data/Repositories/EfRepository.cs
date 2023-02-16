@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using tomware.OpenIddict.UI.Suite.Core;
+using OpenIddict.UI.Suite.Core;
 
-namespace tomware.OpenIddict.UI.Identity.Infrastructure;
+namespace OpenIddict.UI.Identity.Infrastructure;
 
 public class EfRepository<TEntity, TKey> : IAsyncRepository<TEntity, TKey>
   where TEntity : class

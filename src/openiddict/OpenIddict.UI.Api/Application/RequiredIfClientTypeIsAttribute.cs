@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
-namespace tomware.OpenIddict.UI.Api;
+namespace OpenIddict.UI.Api;
 
 public class RequiredIfClientTypeIsAttribute : ValidationAttribute
 {

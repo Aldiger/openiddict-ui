@@ -10,14 +10,14 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using OpenIddict.Server;
 using Server.Models;
-using tomware.OpenIddict.UI.Identity.Infrastructure;
-using tomware.OpenIddict.UI.Infrastructure;
-using tomware.OpenIddict.UI.Suite.Core;
+using OpenIddict.UI.Identity.Infrastructure;
+using OpenIddict.UI.Infrastructure;
+using OpenIddict.UI.Suite.Core;
 using static OpenIddict.Abstractions.OpenIddictConstants;
 using static OpenIddict.Server.OpenIddictServerEvents;
 using static OpenIddict.Server.OpenIddictServerHandlers;
 
-namespace tomware.OpenIddict.UI.Tests;
+namespace OpenIddict.UI.Tests;
 
 public class IntegrationApplicationFactory<TEntryPoint>
   : WebApplicationFactory<TEntryPoint> where TEntryPoint : class

@@ -182,23 +182,23 @@ internal static class Program
     Target(Targets.InstallDependencies, () =>
     {
       Run("dotnet", "tool restore");
-      Run("npm", "install", "samples/Client");
+      Run("npm", "install", "applications/Client");
     });
 
     Target(Targets.DeployClient, () =>
     {
-      Run("npm", "install", "samples/Client");
-      Run("npm", "run publish", "samples/Client");
+      Run("npm", "install", "applications/Client");
+      Run("npm", "run publish", "applications/Client");
 
-      // delete all files, not directories in samples/Server/wwwroot
-      var files = Directory.GetFiles("samples/Server/wwwroot");
+      // delete all files, not directories in applications/Server/wwwroot
+      var files = Directory.GetFiles("applications/Server/wwwroot");
       foreach (var file in files)
       {
         File.Delete(file);
       }
 
-      // copy files of samples/Client/dist to samples/Server/wwwroot
-      CopyDirectory("samples/Client/dist", "samples/Server/wwwroot/");
+      // copy files of applications/Client/dist to applications/Server/wwwroot
+      CopyDirectory("applications/Client/dist", "applications/Server/wwwroot/");
     });
     #endregion
 

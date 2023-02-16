@@ -1,7 +1,7 @@
 using System;
-using tomware.OpenIddict.UI.Identity.Core;
+using OpenIddict.UI.Identity.Core;
 
-namespace tomware.OpenIddict.UI.Identity.Infrastructure;
+namespace OpenIddict.UI.Identity.Infrastructure;
 
 public class ClaimTypeRepository<TContext>
   : EfRepository<ClaimType, Guid>, IClaimTypeRepository

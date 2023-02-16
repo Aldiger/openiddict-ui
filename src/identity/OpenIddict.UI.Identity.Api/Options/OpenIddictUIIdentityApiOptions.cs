@@ -1,8 +1,8 @@
 using System;
 using Microsoft.AspNetCore.Authorization;
-using tomware.OpenIddict.UI.Suite.Core;
+using OpenIddict.UI.Suite.Core;
 
-namespace tomware.OpenIddict.UI.Identity.Api;
+namespace OpenIddict.UI.Identity.Api;
 
 public class OpenIddictUIIdentityApiOptions
 {

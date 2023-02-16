@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.AspNetCore.Mvc.Routing;
 
-namespace tomware.OpenIddict.UI.Suite.Api;
+namespace OpenIddict.UI.Suite.Api;
 
 public static class RoutePrefixExtension
 {

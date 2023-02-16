@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace tomware.OpenIddict.UI.Identity.Core;
+namespace OpenIddict.UI.Identity.Core;
 
 [ExcludeFromCodeCoverage]
 public static class OpenIddictUIIdentityCoreServicesExtensions
